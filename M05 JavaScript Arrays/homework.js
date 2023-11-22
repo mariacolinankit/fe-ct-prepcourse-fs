@@ -3,16 +3,25 @@
 function devolverPrimerElemento(array) {
    // Retornar el primer elemento del arreglo recibido por parámetro.
    // Tu código:
+
+   var array =("pera", "manzana", "mango")
+   array.shift(0)
+   return "array";
+    
 }
 
 function devolverUltimoElemento(array) {
    // Retornar el último elemento del arreglo recibido por parámetro.
    // Tu código:
+   var array = [1, 2, 3, 4]
+   array.unshift(4)
+   return "array";
 }
 
 function obtenerLargoDelArray(array) {
    // Retornar la longitud del arreglo recibido por parámetro.
    // Tu código:
+   
 }
 
 function incrementarPorUno(array) {
@@ -25,12 +34,16 @@ function agregarItemAlFinalDelArray(array, elemento) {
    // Agrega el "elemento" al final del arreglo recibido.
    // Retorna el arreglo.
    // Tu código:
+   array.push(elemento)
+   return "array";
 }
 
 function agregarItemAlComienzoDelArray(array, elemento) {
    // Agrega el "elemento" al comienzo del arreglo recibido.
    // Retorna el arreglo.
    // Tu código:
+   array.unshift(elemento)
+   return "array";
 }
 
 function dePalabrasAFrase(palabras) {
@@ -51,12 +64,17 @@ function agregarNumeros(arrayOfNums) {
    // El parámetro "arrayOfNums" debe ser un arreglo de números.
    // Suma todos los elementos y retorna el resultado.
    // Tu código:
+   return arrayOfNums.reduce(function (acum, elemento){
+      acum = acum + elemento
+      return acum
+   })
 }
 
 function promedioResultadosTest(resultadosTest) {
    // El parámetro "resultadosTest" es un arreglo de números.
    // Itera (en un bucle) los elementos del arreglo y devuelve el promedio de las notas.
    // Tu código:
+   
 }
 
 function numeroMasGrande(arrayOfNums) {
@@ -75,6 +93,11 @@ function multiplicarArgumentos() {
 function cuentoElementos(array) {
    // Desarrolla una función que retorne la cantidad de elementos del arreglo cuyo valor sea mayor que 18.
    // Tu código:
+   var contador = 0;
+   array.array.forEach(element => {
+      
+   });
+
 }
 
 function diaDeLaSemana(numeroDeDia) {
