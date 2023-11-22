@@ -147,11 +147,6 @@ function operadoresLogicos(num1, num2, num3) {
    // Tu código:
 }
 
-
-
-
-
-
 function esPrimo(num) {
    // Retornar true si "num" es primo.
    // De lo contrario retorna false.
